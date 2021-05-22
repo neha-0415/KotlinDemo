@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         btn.setOnClickListener(View.OnClickListener {
             // Code here executes on main thread after user presses button
-            var radius = input_radius.text.toString().toDouble()
+            var radius= input_radius.text.toString().toDouble()
             val pi = 3.1415
             var area = radius * radius * pi
             txt.text = "Area of Circle is $area"
