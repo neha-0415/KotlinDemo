@@ -25,6 +25,7 @@ class MainActivity2 : AppCompatActivity() {
                 "Yellow" -> layout.setBackgroundColor(Color.YELLOW)
                 "Green" -> layout.setBackgroundColor(Color.BLUE)
                 "Gray" -> layout.setBackgroundColor(Color.GRAY)
+
             }
         })
 
