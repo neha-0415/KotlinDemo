@@ -9,8 +9,8 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="391dp"
-        android:layout_height="32dp"
+        android:layout_width="404dp"
+        android:layout_height="37dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="285dp"
         android:entries="@array/array_colors"
