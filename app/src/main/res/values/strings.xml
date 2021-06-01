@@ -7,5 +7,12 @@
         <item>Blue</item>
         <item>Gray</item>
     </string-array>
+    <string-array name="Operators">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+        <item>%</item>
+    </string-array>
 </resources>
 
