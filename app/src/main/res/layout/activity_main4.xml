@@ -45,8 +45,8 @@
         android:id="@+id/btn_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="145dp"
-        android:layout_marginTop="206dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="220dp"
         android:text="Calculate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
