@@ -21,7 +21,9 @@ class SonetQuiz : AppCompatActivity() {
             if (q_name.text.toString().isEmpty()) {
                 Toast.makeText(this@SonetQuiz, "Please enter name", Toast.LENGTH_LONG).show()
             } else {
-                var next: Intent = Intent(this, QuizActivity()::class.java)
+                var next: Intent = Intent(this,QuizActivity()::class.java)
+                next.putExtra("name",q_name.text.toString())
+
                 startActivity(next)
                 finish()
             }
